@@ -1,0 +1,19 @@
+{
+  "name": "solana-jito-mev-flash-arbitrageur",
+  "version": "1.0.0",
+  "description": "Sub-Second Cross-DEX Triangular Arbitrage Agent with Jito MEV Bundles on Solana",
+  "main": "dist/agent.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/agent.js",
+    "simulate": "node scripts/simulate_devnet.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.91.0",
+    "decimal.js": "^10.4.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.0"
+  }
+}
